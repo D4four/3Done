@@ -22,17 +22,19 @@
 }
 
 .ar_form form input {
-	width: 90%;
-	margin: .6em 0;
-	padding: 10px 10px;
-	border: 0;
-	font-weight: 700;
-	background-color: transparent;
-	outline: none;
-	border-color: #217554;
-	border-radius: 20px;
-	margin-left: 50%;
-	transform: translateX(-50%);
+    width: 90%;
+    margin: 0.6em 0;
+    padding: 10px 10px;
+    border: 0;
+    font-weight: 700;
+    background-color: transparent;
+    outline: none;
+    border-color: #217554;
+    border-radius: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid gray;
+    color: #eee;
 }
 
 .ar_form form input[type="text"],

@@ -340,19 +340,33 @@
             </div>
         </footer>
         
-        <!-- <div id="panel" style="display: none;">
+        <div id="panel" style="display: none;">
             <div id="panel-inner">
                 <div class="ar_form">
                     <form method="post">
+                        <input type="hidden" name="project_name" value="3Done">
+		                <input type="hidden" name="admin_email" value="danil.konovalov.70@gmail.com">
+		                <input type="hidden" name="form_subject" value="application">
+
+                        <select name="question">
+                            <option selected>Тема</option>
+                            <option value="Заказать 3В печать">Заказать 3D печать</option>
+                            <option value="Заказать моделирование ">Заказать моделирование </option>
+                            <option value="Заказать 3D сканирование">Заказать 3D сканирование</option>
+                        </select>
                         <input type="text" name="email" placeholder="email" />
-                        <input type="" name="" placeholder="">
-                        <input type="submit" value="Log In" />
+                        
+                        <input type="text" name="message" placeholder="">
+                        <input type="submit" value="send" />
                     </form>
-                    <a href="#">forgot your password?</a>
+                    
                 </div>
             </div>
-        </div> -->
-        <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/bundle.min.js?v10"></script>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+        <script src="js/bundle.min.js?v10"></script>
+        <script src="js/main.js"></script>
         <script type="text/javascript">
             var clicky_site_ids = clicky_site_ids || [];
             clicky_site_ids.push(101126620);
